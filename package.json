@@ -1,12 +1,7 @@
 {
   "name": "ruru-ai",
   "version": "2.0.0",
-  "description": "RuRu AI — AI Video Generation SDK with character consistency, cost preview, script interpreter, long-form support, and black & gold studio.",
-  "author": "LILSYNNOFFICIAL",
-  "license": "Apache-2.0",
-  "bin": {
-    "ruru": "./dist/cli.js"
-  },
+  "description": "RuRu AI — AI Video Generation SDK with character consistency, cost preview, script interpreter, and black & gold studio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
