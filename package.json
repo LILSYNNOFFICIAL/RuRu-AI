@@ -1,7 +1,7 @@
 {
   "name": "ruru-ai",
-  "version": "2.0.0-abyss",
-  "description": "RuRu AI — Black & Gold declarative AI video SDK with character consistency, cost guards, script intelligence and long-form power.",
+  "version": "2.0.0",
+  "description": "RuRu AI — AI Video Generation SDK with character consistency, cost preview, script interpreter, long-form support, and black & gold studio.",
   "author": "LILSYNNOFFICIAL",
   "license": "Apache-2.0",
   "bin": {
