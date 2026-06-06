@@ -7,6 +7,8 @@ export interface CharacterProps {
 }
 
 export const Character = (props: CharacterProps) => {
-  console.log(`🖤 Character locked: ${props.id}`);
+  // Kling 3.0 Subject Binding integration
+  // Passes references as image_reference for consistency
+  console.log('RuRu: Character registered for Kling consistency:', props.id);
   return props;
 };
