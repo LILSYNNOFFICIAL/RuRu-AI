@@ -10,7 +10,7 @@
 
 ### Key Features
 
-- **Character Consistency** — Upload face, body, and pose reference images so characters stay the same across scenes
+- **Character Consistency** — Upload face, body, and pose reference images so characters stay the same across scenes (Kling Subject Binding / image_reference support)
 - **Cost Preview** — See exact credit cost and model breakdown before generating
 - **Script Interpreter** — Paste a full story script and it turns into video scenes automatically
 - **Long Videos** — Supports up to 5 minute videos with smart stitching
@@ -18,23 +18,34 @@
 - **Model Selector** — Choose models and compare costs
 - **Black & Gold Studio** — Web interface for testing everything
 
-### Quick Start
+### Detailed Setup Instructions
 
-```bash
-git clone https://github.com/LILSYNNOFFICIAL/RuRu-AI.git
-cd RuRu-AI
+1. Clone the repo:
+   ```bash
+git clone https://github.com/LILSYNNOFFICIAL/RuRu-AI.git && cd RuRu-AI
+```
+
+2. Install:
+   ```bash
 bun install
+```
+
+3. Environment:
+   ```bash
+cp .env.example .env
+```
+   Add your Kling AI, ElevenLabs, Vercel AI keys.
+
+4. Run:
+   ```bash
 bun run dev
 ```
 
-**Safe CLI Test:**
-```bash
-bunx ruru render examples/hello.tsx --dry-run --model=kling-v3-pro
-```
+**Kling Integration Note:** Uses `image_reference` array for up to 4 references per character for Subject Binding consistency.
 
 ### Credits
 
-- Original project forked from https://github.com/vargHQ/sdk
-- Enhancements by Neurosyn Labs: Character reference system with uploads, cost preview/confirmation, script interpreter, long-form support up to 5 minutes, dialogue modes (audio/text/hybrid), model selector, black & gold studio, and other improvements.
+- Original: Forked from https://github.com/vargHQ/sdk
+- Enhancements by Neurosyn Labs
 
-Star the repo if useful.
+Star the repo.
