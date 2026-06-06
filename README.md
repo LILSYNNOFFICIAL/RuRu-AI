@@ -1,37 +1,40 @@
-# RuRu AI — Black & Gold Declarative Video Abyss
+# RuRu AI — AI Video Generation SDK
 
-![RuRu Banner](https://via.placeholder.com/1200x300/0a0a0a/FFD700?text=RuRu+AI+—+The+Abyss+of+Cinematic+Video)
-
-**JSX-powered AI video generation.** Character consistency that actually works, exact cost preview before credits burn, full script intelligence, and long-form up to 5 minutes.
+**Create high-quality AI videos using simple JSX code.** Works with Kling, Flux, ElevenLabs, Runway, Luma and more. Built for developers and AI agents.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000?logo=bun&logoColor=fff)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache_2.0-gold)
-![Version](https://img.shields.io/badge/Version-2.0.0-abyss-gold)
+![Version](https://img.shields.io/badge/Version-2.0.0-gold)
 
-### 🔥 Abyss Features
+### Key Features
 
-- **Character Consistency Engine** — Persistent face/body/pose references with weight control
-- **Pre-Render Cost Guard** — Full credit estimate + model breakdown + confirmation prompt
-- **Script Interpreter** — Paste full story → accurate shot list + JSX
-- **Long-Form Support** — Up to 5 minutes with smart stitching
-- **Dialogue Modes** — Audio, text-on-screen, hybrid, overlays
-- **Black & Gold Studio** — Full Next.js playground included
-- **Smart Model Routing** — Best price/quality automatically
+- **Character Consistency** — Upload face, body, and pose reference images so characters stay the same across scenes
+- **Cost Preview** — See exact credit cost and model breakdown before generating
+- **Script Interpreter** — Paste a full story script and it turns into video scenes automatically
+- **Long Videos** — Supports up to 5 minute videos with smart stitching
+- **Dialogue Options** — Audio voiceover, on-screen text, both, or custom overlays
+- **Model Selector** — Choose models and compare costs
+- **Black & Gold Studio** — Web interface for testing everything
 
-### Quickstart
+### Quick Start
 
 ```bash
 git clone https://github.com/LILSYNNOFFICIAL/RuRu-AI.git
 cd RuRu-AI
 bun install
-bun run dev          # Launch the luxurious studio
+bun run dev
 ```
 
-CLI Example:
+**Safe CLI Test:**
 ```bash
-bunx ruru render examples/cinematic.tsx --dry-run --model=kling-v3-pro
+bunx ruru render examples/hello.tsx --dry-run --model=kling-v3-pro
 ```
 
-The void is now open. Star it. Feed it. 🖤✨
+### Credits
+
+- Original project forked from https://github.com/vargHQ/sdk
+- Enhancements by Neurosyn Labs: Character reference system with uploads, cost preview/confirmation, script interpreter, long-form support up to 5 minutes, dialogue modes (audio/text/hybrid), model selector, black & gold studio, and other improvements.
+
+Star the repo if useful.
