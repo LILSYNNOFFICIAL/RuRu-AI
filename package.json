@@ -1,10 +1,27 @@
 {
   "name": "ruru-ai",
   "version": "2.0.0",
-  "description": "RuRu AI — Declarative AI Video SDK with character consistency, cost guards, script interpreter, long-form, and black & gold studio",
+  "description": "RuRu AI — Black & Gold declarative AI video SDK",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "^19.0.0-rc",
+    "react-dom": "^19.0.0-rc",
+    "tailwindcss": "^3.4.0",
+    "lucide-react": "^0.441.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5.5.0",
+    "postcss": "^8",
+    "autoprefixer": "^10.4.19"
   }
 }
