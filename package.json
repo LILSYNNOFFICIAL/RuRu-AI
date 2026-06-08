@@ -1,7 +1,7 @@
 {
   "name": "ruru-ai",
   "version": "2.0.0",
-  "description": "RuRu AI — AI Video Generation SDK with character consistency, cost preview, script interpreter, and black & gold studio",
+  "description": "RuRu AI — Declarative AI Video SDK with character consistency, cost guards, script interpreter, long-form, and black & gold studio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
