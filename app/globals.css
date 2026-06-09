@@ -6,8 +6,4 @@ body {
   background-color: #0a0a0a;
   color: #f5f5f5;
 }
-
-.gold-accent {
-  color: #FFD700;
-  text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
-}
+.gold-accent { color: #ffd700; }
