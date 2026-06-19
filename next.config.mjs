@@ -1,16 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-};
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
   typescript: {
-    ignoreBuildErrors: true,   // Temporary to get it deployed
+    ignoreBuildErrors: true,     // Temporary to get past TS issues
   },
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: true,    // Temporary to skip linting errors
   },
 };
 
