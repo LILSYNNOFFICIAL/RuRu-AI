@@ -1,5 +1,1 @@
-"scripts": {
-  "dev": "next dev",
-  "build": "next build --no-lint",
-  "start": "next start"
-}
+"build": "next build --no-lint",
