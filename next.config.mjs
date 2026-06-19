@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  swcMinify: true,
   experimental: {
-    turbopack: true
-  }
+    optimizePackageImports: ['lucide-react'],
+  },
 };
+
 export default nextConfig;
